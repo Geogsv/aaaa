@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Кадровое агентство - PONIC</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Кадровое агентство - PONIC" name="description" />
+        <meta content="" name="keywords" />
+        <meta content="" name="author" />
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- CSS Files
+    ================================================== -->
+        <link id="bootstrap" href="static/vendor/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link id="bootstrap-grid" href="static/vendor/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+        <link id="bootstrap-reboot" href="static/vendor/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- color scheme -->
+        <link id="colors" href="static/vendor/css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+        <link href="static/vendor/css/coloring.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <!-- header begin -->
+            <header class="transparent scroll-bg-color">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex sm-pt10">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            <img alt="" class="logo" src="static/assets/images/logo-light.png" />
+                                            <img alt="" class="logo-2" src="static/assets/images/logo.png" />
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                                <div class="de-flex-col header-col-mid">
+                                    <!-- mainmenu begin -->
+                                    <ul id="mainmenu">
+                                        <li>
+                                            <a href="index.html">Главная<span></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Вакансии<span></span></a>
+                                            <ul>
+                                                <li><a href="{{.Telegram}}">Курьер</a></li>
+                                                <li><a href="{{.Telegram}}">Склад</a></li>
+                                                <li><a href="{{.Telegram}}">Логист</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">Мы на форумах<span></span></a>
+                                            <ul>
+                                                <li><a href="{{.Telegram}}">Rutor</a></li>
+                                                <li><a href="{{.Telegram}}">Картель</a></li>
+                                                <li><a href="{{.Telegram}}">Кракен</a></li>
+                                                <li><a href="{{.Telegram}}">Мега</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="de-flex-col">
+                                    <a class="btn-custom" href="{{.Telegram}}"><i class="fa fa-arrow-down"></i>Мы в телеграмм</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header close -->
+            <!-- content begin -->
+            <div class="no-bottom no-top" id="content">
+                <div id="top"></div>
+
+                <section aria-label="section" data-bgimage="url(static/assets/images/background/3.jpg) bottom" class="text-light">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 text-center wow fadeInLeft" data-wow-delay=".5s">
+                                <img src="static/assets/images/misc/1.png" class="img-fluid" alt="" />
+                            </div>
+
+                            <div class="col-lg-5 offset-lg-1 wow fadeInRight" data-wow-delay=".5s">
+                                <div class="spacer-10"></div>
+                                <div class="h1 text-light">Подберем самое высооплачиваемое предложение<br>
+                                    для 
+                                    <div class="typed-strings">
+                                        <p>курьера</p>
+                                        <p>логиста</p>
+                                        <p>лаборанта</p>
+                                    </div>
+                                    <div class="typed"></div>
+                                </div>
+                                <p class="lead">Да да! Мы не ошиблись.😈</p>
+                                <div class="spacer-20"></div>
+                                <a class="btn-custom" href="{{.Telegram}}">Телеграмм</a>&nbsp;
+                                <a class="btn-border btn-invert" href="{{.Telegram}}">Email</a>
+                                <div class="mb-sm-30"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-highlight" class="text-light" data-bgcolor="#2d2a39">
+                    <div class="container">
+                        <div class="text-center">
+                            <span class="p-title">Откройте для себя</span><br>
+                            <h2>Лучшие Вакансии</h2>
+                            <div class="small-border"></div>
+                        </div>
+                        <div class="row sequence">
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="feature-box f-boxed style-3">
+                                    <i class="bg-color i-circle fa fa-music"></i>
+                                    <div class="text">
+                                        <h4>Курьер</h4>
+                                        ТУТ ИНФОРМАЦИЯ О Вакансии
+                                    </div>
+                                    <i class="wm fa fa-music"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="feature-box f-boxed style-3">
+                                    <i class="bg-color i-circle fa fa-list-ol"></i>
+                                    <div class="text">
+                                        <h4>Склад</h4>
+                                        ТУТ ИНФОРМАЦИЯ О Вакансии
+                                    </div>
+                                    <i class="wm fa fa-list-ol"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="feature-box f-boxed style-3">
+                                    <i class="bg-color i-circle fa fa-star"></i>
+                                    <div class="text">
+                                        <h4>Логист</h4>
+                                        ТУТ ИНФОРМАЦИЯ О Вакансии
+                                    </div>
+                                    <i class="wm fa fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="feature-box f-boxed style-3">
+                                    <i class="bg-color i-circle fa fa-heartbeat"></i>
+                                    <div class="text">
+                                        <h4>Лаборант</h4>
+                                        ТУТ ИНФОРМАЦИЯ О Вакансии
+                                    </div>
+                                    <i class="wm fa fa-heartbeat"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="feature-box f-boxed style-3">
+                                    <i class="bg-color i-circle fa fa-random"></i>
+                                    <div class="text">
+                                        <h4>Графитчик</h4>
+                                        ТУТ ИНФОРМАЦИЯ О Вакансии
+                                    </div>
+                                    <i class="wm fa fa-random"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="feature-box f-boxed style-3">
+                                    <i class="bg-color i-circle fa fa-hourglass-start"></i>
+                                    <div class="text">
+                                        <h4>Трафаретчик</h4>
+                                        ТУТ ИНФОРМАЦИЯ О Вакансии
+                                    </div>
+                                    <i class="wm fa fa-hourglass-start"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Continue translating other sections similarly -->
+
+                <!-- footer begin -->
+                <footer class="footer-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="widget">
+                                    <a href="index.html"><img alt="" class="logo" src="static/assets/images/logo.png"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="widget">
+                                    <h5>Компания</h5>
+                                    <ul>
+                                        <li><a class="a-underline" href="index.html">Главная<span></span></a></li>
+                                        <li><a class="a-underline" href="#p-title">Вакансии<span></span></a></li>
+                                        <li><a class="a-underline" href="contact.html">Контакты<span></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="widget">
+                                    <h5>Вакансии</h5>
+                                    <ul>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Курьер<span></span></a></li>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Склад<span></span></a></li>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Логист<span></span></a></li>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Оператор<span></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="widget">
+                                    <h5>Мы в сети</h5>
+                                    <ul>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Телеграмм<span></span></a></li>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Email<span></span></a></li>
+                                        <li><a class="a-underline" href="{{.Telegram}}">Мы на Картеле<span></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="widget">
+                                    <h5>О нас</h5>
+                                    <p>"Мы — ведущее кадровое агентство, специализирующееся на подборе высококвалифицированных специалистов. Наша команда профессионалов помогает находить лучших сотрудников, способствуя их успешному развитию."</p>
+                                    <small>Лучшие в своем деле...🔥</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subfooter">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="de-flex">
+                                        <div class="de-flex-col">
+                                            &copy; Кадровое Агенство - PONIC 2025
+                                        </div>
+
+                                        <div class="de-flex-col">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- footer close -->
+            </div>
+
+            <div id="preloader">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cookieConsent">
+            <div class="container-fluid">
+                <div class="de-flex">
+                    <div class="de-flex-content">
+                        Добавьте нас в Телеграмм <a href="https://t.me/rabotaponibot" target="_blank">@rabotaponibot</a>
+                    </div>
+                    <div class="de-flex-content">
+                        <a class="cookieConsentOK">Спасибо! может позже...🔥</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Javascript Files
+    ================================================== -->
+        <script src="static/vendor/js/jquery.min.js"></script>
+        <script src="static/vendor/js/bootstrap.min.js"></script>
+        <script src="static/vendor/js/wow.min.js"></script>
+        <script src="static/vendor/js/jquery.isotope.min.js"></script>
+        <script src="static/vendor/js/easing.js"></script>
+        <script src="static/vendor/js/owl.carousel.js"></script>
+        <script src="static/vendor/js/validation.js"></script>
+        <script src="static/vendor/js/jquery.magnific-popup.min.js"></script>
+        <script src="static/vendor/js/enquire.min.js"></script>
+        <script src="static/vendor/js/jquery.stellar.min.js"></script>
+        <script src="static/vendor/js/jquery.plugin.js"></script>
+        <script src="static/vendor/js/typed.js"></script>
+        <script src="static/vendor/js/jquery.countTo.js"></script>
+        <script src="static/vendor/js/jquery.countdown.js"></script>
+        <script src="static/vendor/js/typed.js"></script>
+        <script src="static/vendor/js/designesia.js"></script>
+
+        <script>
+        $(function () {
+            // jquery typed plugin
+            $(".typed").typed({
+                stringsElement: $('.typed-strings'),
+                typeSpeed: 100,
+                backDelay: 1500,
+                loop: true,
+                contentType: 'html', // or text
+                // defaults to false for infinite loop
+                loopCount: false,
+                callback: function () { null; },
+                resetCallback: function () { newTyped(); }
+            });
+        });
+    </script>
+    </body>
+</html>
